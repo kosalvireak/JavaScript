@@ -1,64 +1,65 @@
-// function getReminder() {
-//     console.log("Water the plants.");
-// }
-// function greetInSpanish() {
-//     console.log('Buenas Tarde.')
-// }
-// getReminder();
-// greetInSpanish();
-// //   Water the plants.
-// //   Buenas Tarde.
+function getReminder() {
+    console.log("Water the plants.");
+}
+function greetInSpanish() {
+    console.log('Buenas Tarde.')
+}
+getReminder();
+greetInSpanish();
+//   Water the plants.
+//   Buenas Tarde.
 
 
-// function sayThanks(name) {
-//     console.log('Thank you for your purchase ' + name + '! We appreciate your business.');
-// }
-// sayThanks('Cole');
-// //Thank you for your purchase Cole! We appreciate your business.
+function sayThanks(name) {
+    console.log('Thank you for your purchase ' + name + '! We appreciate your business.');
+}
+sayThanks('Cole');
+//Thank you for your purchase Cole! We appreciate your business.
 
 
-// //‍​‌‌‍default parameters​
+//‍​‌‌‍default parameters​
 
-// //if we don't pass parameters the value 'stranger' will load
-// function greeting(name = 'stranger') {
-//     console.log(`Hello, ${name}!`)
-// }
+//if we don't pass parameters the value 'stranger' will load
+function greeting(name = 'stranger') {
+    console.log(`Hello, ${name}!`)
+}
 
-// greeting('Nick') // Output: Hello, Nick!
-// greeting() // Output: Hello, stranger!
-
-
-// //​‌‌​‌‌‍​‌‌‍‍function return
-
-// ‍‍‍function monitorCount(rows, columns) {
-//     monitor = rows * columns;
-//     return monitor;
-// }
-// const numOfMonitors = monitorCount(5, 4);
-// console.log(`Number of monitor: ${numOfMonitors}`);
-// //Number of monitor: 20
+greeting('Nick') // Output: Hello, Nick!
+greeting() // Output: Hello, stranger!
 
 
-// //​‌‌‍Helper function
-
-// function multiplyByNineFifths(number) //This is helper function
-// {
-//     return number * (9 / 5);
-// };
-
-// function getFahrenheit(celsius) {
-//     return multiplyByNineFifths(celsius) + 32;  //Helper function are being call
-// };
-
-// console.log(getFahrenheit(15)); // Returns 59
+//​‌‌​‌‌‍​‌‌‍‍function return​‌‍‍
 
 
-// //​‌‌‍ ​‌‌‍Anonymous function definition​
+function monitorCount(rows, columns) {
+    monitor = rows * columns;
+    return monitor;
+}
+const numOfMonitors = monitorCount(5, 4);
+console.log(`Number of monitor: ${numOfMonitors}`);
+//Number of monitor: 20
 
-// var anon = function () {
-//     console.log('I am anonymous');
-// }
-// anon();
+
+//‍Helper function
+
+function multiplyByNineFifths(number) //This is helper function
+{
+    return number * (9 / 5);
+};
+
+function getFahrenheit(celsius) {
+    return multiplyByNineFifths(celsius) + 32;  //Helper function are being call
+};
+
+console.log(getFahrenheit(15)); // Returns 59
+
+
+//​‌‌‍ ​‌‌‍Anonymous function definition​
+
+var anon = function () {
+    console.log('I am anonymous');
+}
+anon();
 
 
 //​‌‌‍‍Arrow Functions​
