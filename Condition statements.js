@@ -1,4 +1,4 @@
-// ⁡⁣⁢​‌‌‌If statement
+// ​‌‌‍If statement​
 
 let you = 19;
 let me = 19;
@@ -7,7 +7,7 @@ if (you = me) {
 }
 
 
-// ​‌‌‌If...Else Statements
+// ​‌‌‍If...Else Statements​
 
 let sale = false;
 sale = true;
@@ -17,12 +17,12 @@ if (sale) {
 else {
   console.log("Not time to buy");
 }
-//​‌‌‌------Another way------//
+//​‌‌‍------Another way------​//
 
 sale ? console.log("Time to eat") : console.log("Not time to eat");
 
 
-//​‌‌‌Else If Statements
+//​‌‌‍Else If Statements​
 
 let season = 'summer';
 if (season === 'spring') {
@@ -39,7 +39,7 @@ else {
 }
 
 
-//​‌‌‌Switch case
+//​‌‌‍Switch case​
 
 let athleteFinalPosition = 'first place';
 switch (athleteFinalPosition) {
