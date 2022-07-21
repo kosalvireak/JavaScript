@@ -4,31 +4,30 @@ function getReminder() {
 function greetInSpanish() {
     console.log('Buenas Tarde.')
 }
-getReminder();
-greetInSpanish();
-//   Water the plants.
-//   Buenas Tarde.
+getReminder();                      //   Water the plants.
+greetInSpanish();                   //   Buenas Tarde.
+
+
 
 
 function sayThanks(name) {
     console.log('Thank you for your purchase ' + name + '! We appreciate your business.');
 }
-sayThanks('Cole');
-//Thank you for your purchase Cole! We appreciate your business.
+sayThanks('Cole');                  //Thank you for your purchase Cole! We appreciate your business.
 
 
-//‍​‌‌‍default parameters​
+//‍‍default parameters
 
 //if we don't pass parameters the value 'stranger' will load
 function greeting(name = 'stranger') {
     console.log(`Hello, ${name}!`)
 }
 
-greeting('Nick') // Output: Hello, Nick!
-greeting() // Output: Hello, stranger!
+greeting('Nick')                    // Output: Hello, Nick!
+greeting()                          // Output: Hello, stranger!
 
 
-//​‌‌​‌‌‍​‌‌‍‍function return​‌‍‍
+//‍‍‍function return‍‍
 
 
 function monitorCount(rows, columns) {
@@ -54,7 +53,7 @@ function getFahrenheit(celsius) {
 console.log(getFahrenheit(15)); // Returns 59
 
 
-//​‌‌‍ ​‌‌‍Anonymous function definition​
+//‍ ‍Anonymous function definition
 
 var anon = function () {
     console.log('I am anonymous');
@@ -62,7 +61,7 @@ var anon = function () {
 anon();
 
 
-//​‌‌‍‍Arrow Functions​
+//‍‍Arrow Functions
 
 const rectangleArea = (width, height) => {
     let area = width * height;
@@ -75,7 +74,7 @@ const rectangleArea = function (width, height) {
 };
 */
 
-//​‌‌‍Concise Body Arrow Functions​
+//‍Concise Body Arrow Functions
 
 /*const plantNeedsWater = day =>{
     if (day ==='Wednesday'){
