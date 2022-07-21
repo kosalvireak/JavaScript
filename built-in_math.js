@@ -10,7 +10,7 @@ console.log(men)                //4094930.834710306
 
 // rounds the number to a higher value
 console.log(Math.ceil(43.9));   //44
-// rounds the number to a smller value
+// rounds the number to a smaller value
 console.log(Math.floor(43.9));  //43
 
 // math pow
