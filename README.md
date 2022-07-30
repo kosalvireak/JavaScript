@@ -1,2 +1,2 @@
-# JavaScrip-Beginner
+# JavaScript
 Learning progress in Codecademy
