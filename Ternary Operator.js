@@ -5,4 +5,4 @@ if (5>3){
 	console.log("small");
 }
 5>3 ? console.log('big'):console.log('small');
-//seperate these 2 expression by :
+//separate these 2 expression by :
