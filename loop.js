@@ -17,3 +17,13 @@ for (let count = 3 ; count >= 0; count -- ){
   2
   1
   0*/
+  
+//loop through array
+const me = ['G63','Harley','Scooter']
+for (i in me){
+  console.log(`${me[i]} is my favorite.`);
+}
+  /*G63 is my favorite.
+  Harley is my favorite.
+  Scooter is my favorite.*/
+
