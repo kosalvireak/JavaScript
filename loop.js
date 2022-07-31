@@ -41,4 +41,13 @@ for (let i = 0; i <= bobsFollowers.length ;i++){
     }
   }
 }
-console.log(mutual); // s[ 'a', 'b', 'e', undefined ]
+console.log(mutual); // s[ 'a', 'b', 'e', undefined ] 
+
+
+// While loop -> 
+const cards = ['diamond', 'spade', 'heart', 'club'];
+let me = '';
+while(me!=='heart'){
+  me = cards[Math.floor(Math.random()*4)];
+  console.log(me);
+}
