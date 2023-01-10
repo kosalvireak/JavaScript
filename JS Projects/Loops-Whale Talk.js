@@ -1,0 +1,1 @@
+// https://github.com/OlDaagNewTricks/codecademypro_learnjavascript/blob/master/Loops%20'Whale%20Talk'
